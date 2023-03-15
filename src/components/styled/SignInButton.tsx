@@ -29,10 +29,9 @@ export default SignInButton
 
 export const buttonDefault = (providedStyles: CSSProperties | undefined) => (
   {
-    lineHeight: '21px',
+    lineHeight: '61px',
     border: 'none',
     cursor: 'pointer',
-    fontFamily: 'inherit',
     fontSize: '14px',
     ...providedStyles || {}
   } as React.CSSProperties
